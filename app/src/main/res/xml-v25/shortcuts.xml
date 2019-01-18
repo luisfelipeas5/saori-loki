@@ -1,0 +1,15 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+            android:shortcutId="lock"
+            android:enabled="true"
+            android:icon="@mipmap/ic_launcher_round"
+            android:shortcutShortLabel="@string/lock_shortcut_short_label"
+            android:shortcutLongLabel="@string/lock_shortcut_short_label"
+            android:shortcutDisabledMessage="@string/lock_disabled_message">
+        <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="br.com.luisfelipeas5.saoriblock"
+                android:targetClass="br.com.luisfelipeas5.saoriblock.LockActivity" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>

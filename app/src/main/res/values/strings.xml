@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SaoriLoki</string>
+    <string name="sample_device_admin_description">sample_device_admin_description</string>
+    <string name="sample_device_admin">sample_device_admin</string>
+    <string name="needs_admin">Saori precisa e permissão para ser uma administradora</string>
+
+    <string name="lock_shortcut_short_label">Saori bloqueia a tela do seu celular</string>
+    <string name="lock_disabled_message">Esse atalho não está mais disponível</string>
+    <string name="lock">Bloquear</string>
+</resources>
